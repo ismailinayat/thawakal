@@ -1,0 +1,86 @@
+.features {
+
+    background-color: $color-dark-gray;
+    margin-top: 15rem;
+    color: $color-white;
+    padding:  5rem;
+
+
+    .features__heading {
+
+        text-align: center;
+        margin: 3rem 0;
+        margin-bottom: 10rem;
+        h3 {
+
+            font-size: 4rem;
+
+        }
+
+        p {
+
+            font-size: 1.6rem;
+            max-width: 70rem;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .container {
+
+        display: flex;
+        justify-content: space-around;
+
+        @include respond (tab-port){
+
+            flex-wrap: wrap;
+            gap: 5rem;
+
+        }
+
+        @include respond (phone){
+
+            flex-wrap: wrap;
+            gap: 10rem;
+
+        }
+        .feature {
+            text-align: center;
+
+            @include respond (tab-port){
+
+                flex: 45%;
+                
+    
+    
+            }
+
+            @include respond (phone){
+
+                flex: 100%;
+                
+    
+    
+            }
+            &__icon {
+
+                img {
+
+                    width: 12rem;
+
+
+                }
+            }
+
+            &__text {
+                text-align: center;
+                margin-top: 2rem;
+                h3 {
+
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

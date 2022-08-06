@@ -1,0 +1,26 @@
+.footer {
+
+    background-color: $color-dark-gray;
+    padding: 2rem 0;
+
+    color: $color-white;
+
+    &__container {
+
+    text-align: center;
+    font-size: 1.6rem;
+
+        p {
+
+            span {
+
+
+                a {
+                    
+                    text-decoration: none;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
