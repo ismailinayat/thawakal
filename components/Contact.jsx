@@ -45,7 +45,7 @@ function Contact() {
             <div className="book__form">
               <div className="form__title">
                 <h2>Tell Us About Your Requirement.</h2>
-                <h4>It's easy. Just fill the form below.</h4>
+                <h4>Its easy. Just fill the form below.</h4>
               </div>
               <form className="form" onSubmit={sendEmail}>
                 <div className="form__group">
