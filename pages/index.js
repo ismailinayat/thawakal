@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Thawakal Transport</title>
         <meta name="description" content="We are the best passenger transport company in UAE." />
-        <meta meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
         <link rel="icon" href="/thawakal-title.jpg" />
       </Head>
 
